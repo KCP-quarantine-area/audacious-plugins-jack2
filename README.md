@@ -1,6 +1,6 @@
 # audacious-plugins
 
-Plugins for Audacious
+Music player (fully working)
 
 Install it with:
 
