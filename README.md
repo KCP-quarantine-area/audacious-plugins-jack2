@@ -1,10 +1,8 @@
-# audacious-plugins
+# audacious-plugins with Jack2
 
-Music player (fully working)
+Installation
 
-Install it with:
-
-(Uninstall Jack, install Jack2)
+Uninstall Jack and install Jack2
 
 sudo pacman -Rdd jack && sudo pacman -S jack2
 
