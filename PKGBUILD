@@ -1,8 +1,8 @@
-_commit=f155ed9aca886d631cb3ad706b86ece99555e606
+_commit=9caeb711964b234c0efdc5a57c541e2157cba893
 pkgname=audacious-plugins
-pkgver=3.7.2
+pkgver=3.8.1
 pkgrel=1
-pkgdesc="Plugins for Audacious (qt5 interface)"
+pkgdesc="Plugins for Audacious"
 arch=('x86_64')
 url="http://audacious-media-player.org/"
 license=('BSD' 'GPL')
@@ -12,9 +12,9 @@ makedepends=("audacious" 'qt5-multimedia'
              'alsa-lib' 'pulseaudio' 'jack2' 'lame' 'libvorbis' 'flac'
              'mpg123' 'faad2' 'ffmpeg' 'libmodplug' 'fluidsynth' 'libcdio-paranoia' 'wavpack'
              'dbus-glib' 'libnotify' 'curl' 'libmtp'
-             'neon' 'libmms' 'libcue')
+             'neon' 'libmms' 'libcue'
 
-optdepends=('alsa-lib: Advanced Linux Sound Arch. output'
+            'alsa-lib: Advanced Linux Sound Arch. output'
             'pulseaudio: PulseAudio output'
             'jack2: Jack Audio Connection Kit output'
             'lame: FileWriter MP3 output'
