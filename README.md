@@ -1,12 +1,14 @@
 # audacious-plugins with Jack2
 
-Installation
+Installation from source:
 
  Uninstall Jack and install Jack2
 
 sudo pacman -Rdd jack && sudo pacman -S jack2
 
- Install Audacious:
+Download, extract and run makepkg -si on: 
+https://github.com/KCP-quarantine-area/audacious-plugins-jack2/archive/master.zip
 
-sudo pacman -U https://github.com/KCP-quarantine-area/libguess/blob/master/libguess-1.2-1-x86_64.pkg.tar.xz && 
-sudo pacman -U https://github.com/KCP-quarantine-area/audacious/raw/master/audacious-3.7.2-1-x86_64.pkg.tar.xz && sudo pacman -U https://github.com/KCP-quarantine-area/audacious-plugins-jack2/raw/master/audacious-plugins-3.7.2-1-x86_64.pkg.tar.xz
+Then, do the same with: https://github.com/KCP-quarantine-area/Audacious/archive/master.zip
+
+http://funkyimg.com/i/2dGgB.png
